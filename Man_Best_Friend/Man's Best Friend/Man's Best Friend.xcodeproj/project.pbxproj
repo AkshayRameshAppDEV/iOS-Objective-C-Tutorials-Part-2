@@ -67,23 +67,55 @@
 		B917E4B42406D0C80052C87F /* Man's Best Friend */ = {
 			isa = PBXGroup;
 			children = (
-				B917E4B52406D0C80052C87F /* AppDelegate.h */,
-				B917E4B62406D0C80052C87F /* AppDelegate.m */,
-				B917E4B82406D0C80052C87F /* SceneDelegate.h */,
-				B917E4B92406D0C80052C87F /* SceneDelegate.m */,
-				B917E4BB2406D0C80052C87F /* ViewController.h */,
-				B917E4BC2406D0C80052C87F /* ViewController.m */,
-				B917E4D1240854BA0052C87F /* Puppy.h */,
-				B917E4D2240854BA0052C87F /* Puppy.m */,
-				B917E4CE2406D1FB0052C87F /* Dog.h */,
-				B917E4CF2406D1FB0052C87F /* Dog.m */,
-				B917E4BE2406D0C80052C87F /* Main.storyboard */,
+				B917E4D7240D53B40052C87F /* Delegate */,
+				B917E4D6240D53790052C87F /* Controller */,
+				B917E4D5240D53590052C87F /* View */,
+				B917E4D4240D52D30052C87F /* Model */,
 				B917E4C12406D0C90052C87F /* Assets.xcassets */,
 				B917E4C32406D0C90052C87F /* LaunchScreen.storyboard */,
 				B917E4C62406D0C90052C87F /* Info.plist */,
 				B917E4C72406D0C90052C87F /* main.m */,
 			);
 			path = "Man's Best Friend";
+			sourceTree = "<group>";
+		};
+		B917E4D4240D52D30052C87F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B917E4D1240854BA0052C87F /* Puppy.h */,
+				B917E4D2240854BA0052C87F /* Puppy.m */,
+				B917E4CE2406D1FB0052C87F /* Dog.h */,
+				B917E4CF2406D1FB0052C87F /* Dog.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B917E4D5240D53590052C87F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B917E4BE2406D0C80052C87F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B917E4D6240D53790052C87F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B917E4BB2406D0C80052C87F /* ViewController.h */,
+				B917E4BC2406D0C80052C87F /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B917E4D7240D53B40052C87F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B917E4B52406D0C80052C87F /* AppDelegate.h */,
+				B917E4B62406D0C80052C87F /* AppDelegate.m */,
+				B917E4B82406D0C80052C87F /* SceneDelegate.h */,
+				B917E4B92406D0C80052C87F /* SceneDelegate.m */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
